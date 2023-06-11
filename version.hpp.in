@@ -1,0 +1,11 @@
+#ifndef ${PROJECT_NAME}_VERSION_HPP
+#define ${PROJECT_NAME}_VERSION_HPP
+
+constexpr int version_major = ${${PROJECT_NAME}_VERSION_MAJOR};
+constexpr int version_minor = ${${PROJECT_NAME}_VERSION_MINOR};
+constexpr int version_build = ${${PROJECT_NAME}_VERSION_PATCH};
+
+constexpr char version[] =
+    {"${${PROJECT_NAME}_VERSION_MAJOR}.${${PROJECT_NAME}_VERSION_MINOR}.${${PROJECT_NAME}_VERSION_PATCH}"};
+
+#endif // ${PROJECT_NAME}_VERSION_HPP
